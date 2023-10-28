@@ -1,0 +1,39 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body{
+  background-color: #f0f0f0;
+}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+textarea{
+  width: 100%;
+  padding: 4px;
+  transition: 100ms box-shadow ease-in-out;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input{
+  transition: 100ms box-shadow ease-in-out;
+}
+
+ul{
+  list-style: none;
+}

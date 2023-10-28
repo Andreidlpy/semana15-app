@@ -1,0 +1,116 @@
+.Container{
+  margin: 0 auto;
+  width: 1000px;
+  max-width: 98%;
+}
+.Header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.Header-Heading{
+  font-size: 32px;
+}
+.Header-Heading span{
+  color: #64f;
+}
+.Seguimiento-Heading{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 0;
+}
+.Seguimiento-Subtitle{
+  font-weight: 500;
+}
+.Seguimiento-Subtitle span{
+  color: #64f;
+}
+.Seguimiento-Form{
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+
+.Segumiento-FormControl label{
+  display: block;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 8px 0;
+}
+
+.Segumiento-FormControl input{
+  width: 100%;
+  padding: 8px 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.Segumiento-FormControl input:focus {
+  box-shadow: 0 0 0 1.5px #64f;
+  border-color: #64f;
+  outline: 3px solid transparent;
+}
+
+.Segumiento-FormControl textarea:focus{
+  box-shadow: 0 0 0 1.5px #64f;
+  border-color: #64f;
+  outline: 3px solid transparent;
+}
+.Seguimiento-Button{
+  padding: 10px 0;
+}
+.Seguimiento-Button button{
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color: #64f;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: all .3s ease-in;
+}
+.Seguimiento-Button button:hover{
+ background-color: rgb(122, 91, 243);
+}
+.List-Pacientes{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 700px;
+  overflow: auto;
+}
+.Paciente{
+  background-color: #fff;
+  padding: 16px;
+}
+.Paciente-Content{
+  padding: 14px 0;
+}
+.Paciente-Content li strong{
+  text-transform: uppercase;
+}
+.Paciente-Actions{
+  display: flex;
+  justify-content: space-between;
+}
+.Button{
+  cursor: pointer;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
+}
+.Button--Editar{
+  text-transform: uppercase;
+  background-color: #64f;
+  color: #fff;
+}
+.Button--Eliminar{
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: rgb(255, 90, 68);
+  color: #fff;
+}
